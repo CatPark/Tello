@@ -1,8 +1,4 @@
-from djitellopy import tello
-import cv2
+import sys
 
-print("Hello tello")
+print(sys.path)
 
-mytello = tello()
-
-mytello.connect()
